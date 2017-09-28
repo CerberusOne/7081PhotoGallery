@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aingaran.a7081photogallery.GalleryActivity">
+
+    <TextView
+        android:id="@+id/galleryTitle"
+        android:layout_width="177dp"
+        android:layout_height="51dp"
+        android:text="Gallery"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <GridLayout
+        android:layout_width="395dp"
+        android:layout_height="452dp"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="58dp">
+
+    </GridLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="111dp"
+        android:layout_height="97dp"
+        app:srcCompat="@android:drawable/picture_frame"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="111dp"
+        android:layout_height="97dp"
+        app:srcCompat="@android:drawable/picture_frame"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="111dp"
+        android:layout_height="97dp"
+        app:srcCompat="@android:drawable/picture_frame"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton16"
+        android:layout_width="111dp"
+        android:layout_height="97dp"
+        app:srcCompat="@android:drawable/picture_frame"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton17"
+        android:layout_width="111dp"
+        android:layout_height="97dp"
+        app:srcCompat="@android:drawable/picture_frame"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton18"
+        android:layout_width="111dp"
+        android:layout_height="97dp"
+        app:srcCompat="@android:drawable/picture_frame"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="58dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton19"
+        android:layout_width="111dp"
+        android:layout_height="97dp"
+        app:srcCompat="@android:drawable/picture_frame"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton20"
+        android:layout_width="111dp"
+        android:layout_height="97dp"
+        app:srcCompat="@android:drawable/picture_frame"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="58dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="111dp"
+        android:layout_height="97dp"
+        app:srcCompat="@android:drawable/picture_frame"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="238dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="111dp"
+        android:layout_height="97dp"
+        app:srcCompat="@android:drawable/picture_frame"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="238dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton14"
+        android:layout_width="111dp"
+        android:layout_height="97dp"
+        app:srcCompat="@android:drawable/picture_frame"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="238dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="111dp"
+        android:layout_height="97dp"
+        app:srcCompat="@android:drawable/picture_frame"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="328dp" />
+
+</android.support.constraint.ConstraintLayout>

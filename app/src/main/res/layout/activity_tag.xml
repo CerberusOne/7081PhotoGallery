@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aingaran.a7081photogallery.TagActivity">
+
+    <Button
+        android:id="@+id/addGeoButton"
+        android:layout_width="215dp"
+        android:layout_height="41dp"
+        android:text="Add Geolocation"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+    <EditText
+        android:id="@+id/captionInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter a Caption"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <Button
+        android:id="@+id/addTimeButton"
+        android:layout_width="215dp"
+        android:layout_height="41dp"
+        android:text="Add Timestamp"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <Button
+        android:id="@+id/addCaptionButton"
+        android:layout_width="215dp"
+        android:layout_height="41dp"
+        android:text="Add Caption"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="151dp" />
+
+    <TextView
+        android:id="@+id/tagTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tag Photo"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="30dp" />
+</android.support.constraint.ConstraintLayout>

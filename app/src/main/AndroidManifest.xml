@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".TagActivity" />
+        <activity android:name=".GalleryActivity" />
+        <activity android:name=".FilterActivity" />
+        <activity android:name=".DisplayActivity" />
+        <activity android:name=".UploadActivity"></activity>
     </application>
 
 </manifest>
