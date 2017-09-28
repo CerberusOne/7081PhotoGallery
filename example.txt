@@ -1,1 +1,4 @@
 some content
+
+testing 
+	git config --global credential.helper wincred
