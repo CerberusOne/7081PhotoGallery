@@ -2,3 +2,5 @@ some content
 
 testing 
 	git config --global credential.helper wincred
+testing
+	git config --global commit.gpgsign false
